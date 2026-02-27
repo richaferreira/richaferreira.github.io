@@ -260,7 +260,7 @@ Este portfólio é de uso pessoal. Sinta-se livre para usar como referência, ma
 
 ---
 
-**Desenvolvido com ❤️ por Richardson Ferreira**
+**Desenvolvido por Richardson Ferreira**
 
 *Última atualização: Fevereiro 2025*
 
