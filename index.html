@@ -270,14 +270,14 @@
             align-items: center;
         }
 
-        /* Texto PORTFÓLIO gigante no fundo (Contorno Vazado) */
+        /* Texto PORTFÓLIO gigante no fundo */
         .hero-image::before {
             content: 'PORTFÓLIO';
             position: absolute;
             font-size: 8rem;
             font-weight: 800;
-            color: transparent; /* Deixa o interior do texto transparente */
-            -webkit-text-stroke: 2px rgba(255, 255, 255, 0.15); /* Borda visível */
+            color: rgba(255, 255, 255, 0.02); /* Quase invisível, apenas a textura */
+            text-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5); /* Sombreamento */
             letter-spacing: 15px;
             z-index: -1; /* Joga o texto para trás do card */
             pointer-events: none; /* Evita que o texto atrapalhe o clique nas coisas */
@@ -757,7 +757,6 @@
                 font-size: 4rem;
                 letter-spacing: 5px;
                 transform: translate(-50%, -50%) rotate(0deg); /* Tira a inclinação no celular para caber melhor */
-                -webkit-text-stroke: 1px rgba(255, 255, 255, 0.15); /* Contorno mais fino no celular */
             }
         }
     </style>
