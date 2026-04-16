@@ -145,7 +145,7 @@ Edite as variáveis CSS no `<style>`:
 ```
 
 ### Alterar Conteúdo
-1. Abra `portfolio-enterprise.html` em editor de texto
+1. Abra `index.html` em editor de texto
 2. Localize a seção desejada (busque por `<!-- Seção -->`)
 3. Edite o conteúdo HTML
 4. Salve e atualize no navegador
