@@ -68,57 +68,7 @@ portfolio-enterprise.html
 
 ---
 
-## 🛠️ Como Usar
 
-### 1. Abrir Localmente
-```bash
-# Opção 1: Abrir diretamente no navegador
-open portfolio-enterprise.html
-
-# Opção 2: Servir com Python
-python3 -m http.server 8000
-# Acesse: http://localhost:8000/portfolio-enterprise.html
-```
-
-### 2. Deploy no GitHub Pages
-
-#### No Windows (PowerShell):
-```powershell
-# Navegue até o repositório
-cd C:\Users\PC1\Downloads\richardson-portfolio-v2\richaferreira.github.io
-
-# Copie o arquivo
-Copy-Item ..\portfolio-enterprise.html -Destination index.html
-
-# Crie arquivo .nojekyll (desabilita Jekyll)
-"" | Out-File -Encoding UTF8 .nojekyll
-
-# Adicione ao Git
-git add index.html .nojekyll
-
-# Commit
-git commit -m "Deploy: Portfólio Richardson Ferreira v2"
-
-# Push para main
-git push origin main
-```
-
-#### No macOS/Linux:
-```bash
-cd ~/richardson-portfolio-v2/richaferreira.github.io
-cp ../portfolio-enterprise.html index.html
-touch .nojekyll
-git add index.html .nojekyll
-git commit -m "Deploy: Portfólio Richardson Ferreira v2"
-git push origin main
-```
-
-### 3. Verificar Deploy
-- Aguarde 2-3 minutos
-- Acesse: `https://richaferreira.github.io`
-- Limpe cache: `Ctrl+F5` (Windows) ou `Cmd+Shift+R` (Mac)
-
----
 
 ## 📝 Seções do Portfólio
 
@@ -220,21 +170,6 @@ Edite as variáveis CSS no `<style>`:
 
 ---
 
-## ✅ Checklist de Deploy
-
-- [ ] Arquivo `portfolio-enterprise.html` está atualizado
-- [ ] Foto do GitHub carrega corretamente
-- [ ] Links de contato funcionam (email, GitHub, LinkedIn)
-- [ ] Navegação funciona em todos os links internos
-- [ ] Design responsivo em mobile (teste com F12)
-- [ ] Arquivo copiado como `index.html` no repositório
-- [ ] Arquivo `.nojekyll` criado
-- [ ] Git commit realizado
-- [ ] Git push enviado para `main`
-- [ ] GitHub Pages ativado em Settings → Pages
-- [ ] Site acessível em `https://richaferreira.github.io`
-
----
 
 ## 🚀 Performance
 
@@ -262,6 +197,6 @@ Este portfólio é de uso pessoal. Sinta-se livre para usar como referência, ma
 
 **Desenvolvido por Richardson Ferreira**
 
-*Última atualização: Fevereiro 2025*
+*Última atualização: Abril 2026*
 
 
