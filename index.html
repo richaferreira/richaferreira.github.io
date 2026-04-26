@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1024">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Richardson Ferreira | Eng Em Formação </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -694,6 +694,62 @@
             font-size: 0.9rem;
         }
 
+        /* Achievements */
+        .achievements {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(30, 41, 59, 0.8) 100%);
+        }
+
+        .achievements-grid {
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .achievement-item {
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .achievement-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .achievement-item img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid var(--primary);
+            background: #1e293b;
+            object-fit: cover;
+        }
+
+        .achievement-item p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+
+        /* Hamburger Menu */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 5px;
+            z-index: 200;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 3px;
+            background: var(--text-primary);
+            border-radius: 3px;
+            transition: all 0.3s;
+        }
+
         /* Responsividade */
         @media (max-width: 768px) {
             .hero {
@@ -705,9 +761,30 @@
                 font-size: 2.5rem;
             }
 
+            .hamburger {
+                display: flex;
+            }
+
             nav ul {
-                gap: 1rem;
-                font-size: 0.9rem;
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: rgba(15, 23, 42, 0.98);
+                backdrop-filter: blur(10px);
+                flex-direction: column;
+                padding: 1.5rem 2rem;
+                gap: 1.2rem;
+                border-bottom: 1px solid var(--border-color);
+            }
+
+            nav ul.active {
+                display: flex;
+            }
+
+            nav {
+                position: relative;
             }
 
             .about-grid {
@@ -750,13 +827,18 @@
             <a href="#" class="logo">
                 RF<span class="logo-dot"></span>
             </a>
+            <div class="hamburger" onclick="document.querySelector('nav ul').classList.toggle('active')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#experiencia">Experiência</a></li>
                 <li><a href="#educacao">Educação</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#achievements">Conquistas</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -766,11 +848,9 @@
          <div class="hero-content">
         
             <h1>Olá, sou <span class="highlight">Richardson Ferreira</span></h1>
-            <p>Sou estudante de <strong>Engenharia de Software</strong> e estou vivendo uma<strong> transição de carreira empolgante.</strong></p>
-            <p>Trago comigo uma bagagem de mais de 7 anos na linha de frente:<strong> trabalhei com infraestrutura, redes FTTH, manutenção de hardware, instalações elétricas e, principalmente, com atendimento ao público.</strong></p>
-            <p>Os anos de atuação direta no atendimento ao público possibilitaram o desenvolvimento de competências socioemocionais que não podem ser adquiridas exclusivamente por meio da prática técnica em programação. Entre elas, destaca-se a <strong>empatia</strong>, entendida como a capacidade de compreender as necessidades, limitações e perspectivas dos usuários. Essa experiência relacional amplia a visão profissional, favorecendo a análise contextualizada de problemas e a construção de soluções tecnológicas alinhadas às demandas humanas e organizacionais.</p>
-            <p>Atualmente direciono minha atenção para o estudo de <strong>Python, JavaScript e C#</strong>, e estou iniciando o aprendizado de <strong>PostgreSQL, MongoDB e Docker Compose</strong>.</p> 
-            <p>Procuro minha primeira vaga de estágio para integrar <strong>minha habilidade de resolver problemas</strong> com a <strong>ambição de desenvolver soluções tecnológicas</strong>, contribuindo em equipes que priorizam código limpo e resultados que beneficiem os usuários.</p>
+            <p>Estudante de <strong>Engenharia de Software</strong> em transição de carreira, com mais de 7 anos de experiência em <strong>infraestrutura, redes FTTH, hardware, instalações elétricas e atendimento ao público.</strong></p>
+            <p>A vivência direta com o público desenvolveu competências como <strong>empatia</strong> e <strong>comunicação clara</strong>, ampliando minha visão para construir soluções tecnológicas alinhadas às necessidades reais dos usuários.</p>
+            <p>Atualmente focado em <strong>Python, JavaScript e C#</strong>, com estudos em <strong>PostgreSQL, MongoDB e Docker Compose</strong>. Busco minha primeira oportunidade de estágio para integrar <strong>resolução de problemas</strong> com <strong>desenvolvimento de software</strong> em equipes que priorizam código limpo e impacto positivo.</p>
 
             <div class="hero-cta">
                 <a href="#contato" class="btn btn-primary">Entrar em Contato</a>
@@ -887,7 +967,8 @@
                         <div class="job-highlight">▸ Configuração de ativos de rede</div>
                         <div class="job-highlight">▸ Garantia de conectividade e expansão de infraestrutura crítica</div>
                     </div>
-                
+                </div>
+
                 <div class="job">
                     <div class="job-header">
                         <div>
@@ -926,26 +1007,9 @@
                     <div class="job-header">
                         <div>
                             <div class="job-title">Operador de Loja</div>
-                            <div class="job-company">Casa&Vídeo</div>
+                            <div class="job-company">Casa & Vídeo</div>
                         </div>
-                        <div class="job-period">Out 2018 – Fev 2020</div>
-                    </div>
-                    <div class="job-description">Atendimento ao cliente com foco em resolução de problemas e operações logísticas de estoque. Colaboração em equipe para atingimento de metas e organização de processos de vendas.</div>
-                    <div class="job-highlights">
-                        <div class="job-highlight">▸ Atendimento ao cliente com excelência</div>
-                        <div class="job-highlight">▸ Resolução de problemas e reclamações</div>
-                        <div class="job-highlight">▸ Gestão de estoque e logística</div>
-                        <div class="job-highlight">▸ Atingimento de metas de vendas</div>
-                    </div>
-                </div>
-
-                <div class="job">
-                    <div class="job-header">
-                        <div>
-                            <div class="job-title">Operador de Loja</div>
-                            <div class="job-company">Casa&Vídeo</div>
-                        </div>
-                        <div class="job-period">Abr 2017 – Jan 2018</div>
+                        <div class="job-period">Abr 2017 – Fev 2020</div>
                     </div>
                     <div class="job-description">Atendimento ao cliente com foco em resolução de problemas e operações logísticas de estoque. Colaboração em equipe para atingimento de metas e organização de processos de vendas.</div>
                     <div class="job-highlights">
@@ -984,7 +1048,7 @@
                     <h3>Engenharia de Software</h3>
                     <p><strong>Universidade de Vassouras (UV)</strong></p>
                     <p>Curso de graduação com foco em desenvolvimento de software, arquitetura de sistemas e engenharia de processos.</p>
-                    <div class="education-status">📚 Em Andamento</div>
+                    <div class="education-status">📚 Cursando – 5º Período</div>
                 </div>
 
                 <div class="education-card">
@@ -1029,6 +1093,14 @@
                     <p>Desenvolvimento, estruturação e deploy deste site profissional para apresentar minha trajetória, repositórios e habilidades práticas na área de tecnologia.</p>
                     <a href="https://github.com/richaferreira/richaferreira.github.io" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 600; margin-top: 0.5rem; display: inline-block;">Ver Repositório ↗</a>
                     <div class="education-status">✓ Concluído</div>
+                </div>
+
+                <div class="education-card">
+                    <h3>📍 OndeTem?</h3>
+                    <p><strong>Node.js, Express, Vanilla JS, Bootstrap 5, Leaflet, Google Gemini</strong></p>
+                    <p>PWA de agendamento de serviços estéticos — conecta clientes a salões, clínicas e profissionais autônomos de beleza, com mapa de proximidade, pagamento online (Pix/cartão simulados) e chat com IA.</p>
+                    <a href="https://github.com/richaferreira/ondetem" target="_blank" style="color: var(--primary); text-decoration: none; font-weight: 600; margin-top: 0.5rem; display: inline-block;">Ver Repositório ↗</a>
+                    <div class="education-status">🚀 Em Desenvolvimento</div>
                 </div>
 
                 <div class="education-card">
@@ -1114,23 +1186,23 @@
 
     <section id="achievements" class="achievements">
         <div class="container">
-            <h2>GitHub Achievements</h2>
-            <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
-                
-                <div style="text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" alt="Achievement 1" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--primary); background: #1e293b; object-fit: cover;">
+            <h2>Conquistas no GitHub</h2>
+            <div class="achievements-grid">
+                <div class="achievement-item">
+                    <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" alt="Pair Extraordinaire">
+                    <p>Pair Extraordinaire</p>
                 </div>
-
-                <div style="text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" alt="Pull Shark" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--primary); background: #1e293b; object-fit: cover;">
+                <div class="achievement-item">
+                    <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" alt="Pull Shark">
+                    <p>Pull Shark</p>
                 </div>
-
-                <div style="text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" alt="YOLO" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--primary); background: #1e293b; object-fit: cover;">
+                <div class="achievement-item">
+                    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" alt="YOLO">
+                    <p>YOLO</p>
                 </div>
-
-                <div style="text-align: center; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-10px)'" onmouseout="this.style.transform='translateY(0)'">
-                    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" alt="Achievement 4" style="width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--primary); background: #1e293b; object-fit: cover;">
+                <div class="achievement-item">
+                    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" alt="Quickdraw">
+                    <p>Quickdraw</p>
                 </div>
             </div>
         </div>
@@ -1142,6 +1214,7 @@
             <p>Estou aberto a oportunidades de estágio, projetos e colaborações. Vamos criar algo incrível juntos!</p>
             <div class="contact-buttons">
                 <a href="mailto:richardsonferreira1995@gmail.com" class="contact-btn">📧 Email</a>
+                <a href="https://wa.me/5522999273766" class="contact-btn">📱 WhatsApp</a>
                 <a href="https://github.com/richaferreira" class="contact-btn">💻 GitHub</a>
                 <a href="https://www.linkedin.com/in/richardson-ferreira-464571264" class="contact-btn">💼 LinkedIn</a>
             </div>
