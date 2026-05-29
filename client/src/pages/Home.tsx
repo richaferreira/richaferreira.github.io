@@ -75,10 +75,10 @@ export default function Home() {
       title: "Recepcionista Hospitalar",
       company: "Unimed Araruama",
       period: "Set 2024 – Atual",
-      location: "Araruama, RJ",
+      location: "Saquarema, RJ",
       description: "Primeiro ponto de contato em ambiente de saúde com foco em atendimento humanizado, admissão de pacientes e gestão de fluxo. Responsável por receber pacientes, agendar consultas e manter a organização do fluxo hospitalar.",
       achievements: [
-        "Atendimento humanizado a mais de 100 pacientes/dia",
+        "Atendimento humanizado a mais de 50 pacientes/dia",
         "Gestão eficiente de fluxo de entrada",
         "Feedback positivo de pacientes e equipe"
       ]
@@ -87,7 +87,7 @@ export default function Home() {
       title: "Técnico em Hardware e Eletricista Residencial",
       company: "Autônomo / Prestação de Serviços",
       period: "Atuação Contínua",
-      location: "Araruama, RJ",
+      location: "Saquarema, RJ",
       description: "Atendimento a clientes particulares para diagnóstico, montagem e manutenção de computadores e notebooks, além de execução de reparos e novas instalações elétricas residenciais.",
       achievements: [
         "Montagem de computadores (Workstations e Gamers) e upgrades",
@@ -100,7 +100,7 @@ export default function Home() {
       title: "Técnico de Redes / FTTH",
       company: "Linko",
       period: "Mar 2023 – Set 2024",
-      location: "Araruama, RJ",
+      location: "saquarema, RJ",
       description: "Diagnóstico de falhas em redes TCP/IP, instalação de infraestrutura FTTH e configuração de ativos de rede. Responsável pela manutenção e expansão da infraestrutura de fibra óptica.",
       achievements: [
         "Diagnóstico e resolução de 95% das falhas de rede",
@@ -112,7 +112,7 @@ export default function Home() {
       title: "Ajudante de Caminhão",
       company: "Vidraçaria Elace",
       period: "Abr 2022 – Jan 2023",
-      location: "Araruama, RJ",
+      location: "Saquarema, RJ",
       description: "Suporte logístico e operacional em atividades de transporte e entrega. Trabalho em equipe e responsabilidade com prazos.",
       achievements: [
         "Suporte logístico em entregas",
@@ -125,7 +125,7 @@ export default function Home() {
       title: "Técnico de Redes / FTTH",
       company: "Ok Virtual",
       period: "Ago 2020 – Nov 2021",
-      location: "Araruama, RJ",
+      location: "Saquarema, RJ",
       description: "Diagnóstico de falhas lógicas em redes TCP/IP e expansão de infraestrutura crítica. Suporte técnico para clientes corporativos e residenciais.",
       achievements: [
         "Resolução de problemas complexos de rede",
@@ -137,7 +137,7 @@ export default function Home() {
       title: "Operador de Loja",
       company: "Casa & Vídeo",
       period: "Abr 2017 – Fev 2020",
-      location: "Araruama, RJ",
+      location: "Saquarema, RJ",
       description: "Atendimento ao cliente com foco em resolução de problemas e operações logísticas de estoque. Colaboração em equipe para atingimento de metas e organização de processos de vendas.",
       achievements: [
         "Atendimento ao cliente com excelência",
@@ -150,7 +150,7 @@ export default function Home() {
       title: "Caixa e Atendimento",
       company: "Papelaria Mattos",
       period: "Abril 2014 – Jan 2017",
-      location: "Araruama, RJ",
+      location: "Saquarema, RJ",
       description: "Responsabilidade financeira no fechamento de caixa e conferência rigorosa de inventário. Atendimento direto ao público, desenvolvendo comunicação clara e objetiva.",
       achievements: [
         "Fechamento de caixa com precisão financeira",
@@ -301,7 +301,7 @@ export default function Home() {
                 </div>
                 <div className="space-y-2">
                   <h4 className="font-semibold text-primary">Localização</h4>
-                  <p className="text-sm text-muted-foreground">Araruama, RJ<br />Brasil</p>
+                  <p className="text-sm text-muted-foreground">Saquarema, RJ<br />Brasil</p>
                 </div>
               </div>
             </div>
@@ -488,7 +488,7 @@ export default function Home() {
 
                 <div className="space-y-6">
                   <a 
-                    href="mailto:richardson.ferreira.contato@gmail.com" 
+                    href="mailto:richardsonferreira1995@gmail.com" 
                     className="flex items-center gap-4 p-4 rounded-xl bg-card/40 border border-border/20 hover:border-primary/50 hover:bg-primary/5 transition-all group"
                   >
                     <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:scale-110 transition-transform">
@@ -496,7 +496,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="text-xs text-muted-foreground uppercase font-bold tracking-wider">E-mail</p>
-                      <p className="text-lg font-medium">richardson.ferreira.contato@gmail.com</p>
+                      <p className="text-lg font-medium">richardsonferreira1995@gmail.com</p>
                     </div>
                   </a>
 
@@ -576,7 +576,7 @@ export default function Home() {
       <footer className="py-12 border-t border-border/10 text-center">
         <div className="container mx-auto px-4">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Richardson Ferreira. Desenvolvido com React, Tailwind e ❤️
+            © {new Date().getFullYear()} Richardson Ferreira. Desenvolvido com React, Tailwind.
           </p>
         </div>
       </footer>
