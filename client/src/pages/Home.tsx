@@ -225,7 +225,7 @@ export default function Home() {
             </div>
             
             <p className="text-xl text-muted-foreground leading-relaxed max-w-lg mb-6 animate-in fade-in slide-in-from-left duration-700 delay-100">
-              Desenvolvedor em transição de carreira com <strong className="text-foreground">7+ anos de experiência</strong> em infraestrutura, redes FTTH e hardware. Atualmente cursando <strong className="text-foreground">Engenharia de Software</strong> e focado em <strong className="text-foreground">Python, JavaScript e C#</strong>.
+              Desenvolvedor em transição de carreira com <strong className="text-foreground">7+ anos de experiência</strong> em infraestrutura, redes FTTH, hardware e Eletrecista Residencial. Atualmente cursando <strong className="text-foreground">Engenharia de Software</strong> e focado em <strong className="text-foreground">Python, JavaScript e C#</strong>.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg mb-8 animate-in fade-in slide-in-from-left duration-700 delay-200">
