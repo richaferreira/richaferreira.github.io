@@ -73,7 +73,7 @@ export default function Home() {
   const experience = [
     {
       title: "Recepcionista Hospitalar",
-      company: "Unimed Araruama",
+      company: "Unimed Araruama.",
       period: "Set 2024 – 2026",
       location: "Saquarema, RJ",
       description: "Primeiro ponto de contato em ambiente de saúde com foco em atendimento humanizado, admissão de pacientes e gestão de fluxo. Responsável por receber pacientes, agendar consultas e manter a organização do fluxo hospitalar.",
