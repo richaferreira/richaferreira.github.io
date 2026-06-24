@@ -229,7 +229,7 @@ export default function Home() {
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-lg mb-8 animate-in fade-in slide-in-from-left duration-700 delay-200">
-              Combino experiência técnica sólida com habilidades interpessoais desenvolvidas em ambientes dinâmicos. Busco minha primeira oportunidade de estágio para integrar resolução de problemas com desenvolvimento de software.
+              Combino experiência técnica sólida com habilidades interpessoais desenvolvidas em ambientes dinâmicos. Busco oportunidade de estágio para integrar resolução de problemas com desenvolvimento de software.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-in fade-in slide-in-from-left duration-700 delay-300">
@@ -291,7 +291,7 @@ export default function Home() {
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Especializado em <strong className="text-foreground">infraestrutura de redes FTTH</strong> e <strong className="text-foreground">hardware</strong>, possuo uma base sólida em resolução de problemas complexos e diagnóstico técnico. Atualmente, estou focado em expandir meus conhecimentos para o desenvolvimento de software, aplicando minha experiência prática em novos desafios tecnológicos.
+                Especializado em <strong className="text-foreground">infraestrutura de redes FTTH</strong> e <strong className="text-foreground">hardware, eletrecista residencial</strong>, possuo uma base sólida em resolução de problemas complexos e diagnóstico técnico. Atualmente, estou focado em expandir meus conhecimentos para o desenvolvimento de software, aplicando minha experiência prática em novos desafios tecnológicos.
               </p>
 
               <div className="grid grid-cols-2 gap-4 pt-4">
