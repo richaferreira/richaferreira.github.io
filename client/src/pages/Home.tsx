@@ -517,7 +517,7 @@ export default function Home() {
 
                   <div className="flex gap-4 pt-4">
                     <a 
-                      href="https://www.linkedin.com/in/richardson-ferreira-832a51235/" 
+                      href="https://www.linkedin.com/in/richardson-ferreira/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-12 h-12 rounded-lg bg-card/40 border border-border/20 flex items-center justify-center hover:text-primary hover:border-primary/50 transition-all"
