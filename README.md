@@ -64,5 +64,5 @@ O site estará disponível em `http://localhost:3000`.
 
 ## ✉️ Contato
 
--   **LinkedIn:** [Richardson Ferreira](https://www.linkedin.com/in/richardson-ferreira-832a51235/)
+-   **LinkedIn:** [Richardson Ferreira](https://www.linkedin.com/in/richardson-ferreira/)
 -   **GitHub:** [@richaferreira](https://github.com/richaferreira)
