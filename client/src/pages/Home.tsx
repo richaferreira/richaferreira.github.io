@@ -224,13 +224,13 @@ export default function Home() {
               </h1>
             </div>
             
-            <p className="text-xl text-muted-foreground leading-relaxed max-w-lg mb-6 animate-in fade-in slide-in-from-left duration-700 delay-100">
-              Desenvolvedor em transição de carreira com <strong className="text-foreground">7+ anos de experiência</strong> em infraestrutura, redes FTTH, hardware e Eletrecista Residencial. Atualmente cursando <strong className="text-foreground">Engenharia de Software</strong> e focado em <strong className="text-foreground">Python, JavaScript e C#</strong>.
-            </p>
+           <p className="text-xl text-muted-foreground leading-relaxed max-w-lg mb-6 animate-in fade-in slide-in-from-left duration-700 delay-100">
+  Graduando no <strong className="text-foreground">6º período de Engenharia de Software</strong> e <strong className="text-foreground">Desenvolvedor</strong> em transição de carreira, somando <strong className="text-foreground">7+ anos de experiência</strong> em infraestrutura, manutenção de hardware, redes FTTH e elétrica residencial.
+</p>
 
-            <p className="text-lg text-muted-foreground leading-relaxed max-w-lg mb-8 animate-in fade-in slide-in-from-left duration-700 delay-200">
-              Combino experiência técnica sólida com habilidades interpessoais desenvolvidas em ambientes dinâmicos. Busco oportunidade de estágio para integrar resolução de problemas com desenvolvimento de software.
-            </p>
+<p className="text-lg text-muted-foreground leading-relaxed max-w-lg mb-8 animate-in fade-in slide-in-from-left duration-700 delay-200">
+  Atualmente, direciono minha atuação para o desenvolvimento de software com <strong className="text-foreground">Python, JavaScript e C#</strong>, alinhando lógica de programação e arquitetura de sistemas ao conhecimento técnico do funcionamento físico dos equipamentos. Busco oportunidade de <strong className="text-foreground">estágio em desenvolvimento</strong> para gerar valor contínuo e evoluir tecnicamente com a equipe.
+</p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-in fade-in slide-in-from-left duration-700 delay-300">
               <Button 
