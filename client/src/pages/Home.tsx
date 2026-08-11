@@ -225,11 +225,11 @@ export default function Home() {
             </div>
             
            <p className="text-xl text-muted-foreground leading-relaxed max-w-lg mb-6 animate-in fade-in slide-in-from-left duration-700 delay-100">
-  Graduando no <strong className="text-foreground">6º período de Engenharia de Software</strong> e <strong className="text-foreground">Desenvolvedor</strong> em transição de carreira, somando <strong className="text-foreground">7+ anos de experiência</strong> em infraestrutura, manutenção de hardware, redes FTTH e elétrica residencial.
+  <strong className="text-foreground">Desenvolvedor de Software</strong> em transição de carreira, no <strong className="text-foreground">6º período de Engenharia de Software</strong>. 
 </p>
 
 <p className="text-lg text-muted-foreground leading-relaxed max-w-lg mb-8 animate-in fade-in slide-in-from-left duration-700 delay-200">
-  Atualmente, direciono minha atuação para o desenvolvimento de software com <strong className="text-foreground">Python, JavaScript e C#</strong>, alinhando lógica de programação e arquitetura de sistemas ao conhecimento técnico do funcionamento físico dos equipamentos. Busco oportunidade de <strong className="text-foreground">estágio em desenvolvimento</strong> para gerar valor contínuo e evoluir tecnicamente com a equipe.
+  Focado na criação de aplicações com <strong className="text-foreground">Python, JavaScript e C#</strong>. Unindo 7+ anos de bagagem em infraestrutura de TI à lógica de programação. Em busca de oportunidade de <strong className="text-foreground">estágio</strong>.
 </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-in fade-in slide-in-from-left duration-700 delay-300">
@@ -286,14 +286,17 @@ export default function Home() {
           
           <div className="grid lg:grid-cols-2 gap-12">
             <div className="space-y-6">
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Sou um profissional apaixonado por <strong className="text-foreground">tecnologia e inovação</strong>, atualmente cursando <strong className="text-foreground">Engenharia de Software</strong> na Universidade de Vassouras. Minha trajetória profissional combina experiência técnica sólida com habilidades interpessoais desenvolvidas em ambientes dinâmicos.
-              </p>
-              
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Especializado em <strong className="text-foreground">infraestrutura de redes FTTH</strong> e <strong className="text-foreground">hardware, eletrecista residencial</strong>, possuo uma base sólida em resolução de problemas complexos e diagnóstico técnico. Atualmente, estou focado em expandir meus conhecimentos para o desenvolvimento de software, aplicando minha experiência prática em novos desafios tecnológicos.
-              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+  Atualmente no <strong className="text-foreground">6º período de Engenharia de Software pela Universidade de Vassouras</strong>, minha paixão por tecnologia começou na prática. Ao longo de mais de 7 anos, atuei com infraestrutura de redes FTTH, manutenção de hardware e instalações elétricas residenciais — uma bagagem que me deu um entendimento profundo de como os sistemas funcionam do nível físico ao lógico.
+</p>
 
+<p className="text-lg text-muted-foreground leading-relaxed mb-4">
+  Essa experiência em campo moldou minha capacidade de <strong className="text-foreground">diagnóstico preciso e resolução de problemas complexos</strong> sob pressão, além de desenvolver uma comunicação clara no atendimento direto ao cliente. 
+</p>
+
+<p className="text-lg text-muted-foreground leading-relaxed">
+  Hoje, aplico essa visão completa de tecnologia no <strong className="text-foreground">desenvolvimento de software</strong>, projetando códigos limpos e funcionais. Meu objetivo é somar essa bagagem prática a times dinâmicos de desenvolvimento através de um estágio.
+</p>
               <div className="grid grid-cols-2 gap-4 pt-4">
                 <div className="space-y-2">
                   <h4 className="font-semibold text-primary">Educação</h4>
