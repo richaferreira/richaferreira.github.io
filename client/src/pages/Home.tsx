@@ -501,7 +501,7 @@ export default function Home() {
                   </a>
 
                   <a 
-                    href="https://wa.me/552299273766" 
+                    href="https://wa.me/5522999273766" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 rounded-xl bg-card/40 border border-border/20 hover:border-green-500/50 hover:bg-green-500/5 transition-all group"
@@ -511,7 +511,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="text-xs text-muted-foreground uppercase font-bold tracking-wider">WhatsApp</p>
-                      <p className="text-lg font-medium">+55 (22) 99764-5161</p>
+                      <p className="text-lg font-medium">+55 (22) 99927-3766</p>
                     </div>
                   </a>
 
@@ -562,7 +562,7 @@ export default function Home() {
                       placeholder="No que posso te ajudar?"
                     />
                   </div>
-                  <Button className="w-full py-6 text-lg font-bold" onClick={() => window.open('https://wa.me/552299273766?text=Olá Richardson, vi seu portfólio e gostaria de conversar.')}>
+                  <Button className="w-full py-6 text-lg font-bold" onClick={() => window.open('https://wa.me/5522999273766?text=Olá Richardson, vi seu portfólio e gostaria de conversar.')}>
                     Enviar Mensagem
                   </Button>
                 </form>
