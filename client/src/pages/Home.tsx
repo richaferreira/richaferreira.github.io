@@ -19,11 +19,11 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      title: "💧 InfraPlus",
-      subtitle: "Plataforma Web (Full Stack)",
-      description: "Plataforma de utilidade pública para monitoramento e denúncia de problemas hídricos. Projeto acadêmico com foco em impacto social.",
-      tech: ["React", "Node.js", "PostgreSQL", "Docker"],
-      link: "https://github.com/richaferreira/Projeto_Infraplus_V1",
+      title: "🛡️ Safe_Student",
+      subtitle: "Plataforma Web (Full Stack) · Projeto Acadêmico – Universidade de Vassouras",
+      description: "Plataforma voltada para o monitoramento de presença escolar e comunicação em tempo real entre escola e responsáveis. Focada em rastreabilidade, segurança e controle operacional, com controle de acesso por perfis (RBAC) para gestão, portaria e responsáveis.",
+      tech: ["JavaScript", "Node.js", "SQLite", "HTML", "CSS"],
+      link: "https://github.com/richaferreira/Safe_Student",
       status: "Em Desenvolvimento"
     },
     {
